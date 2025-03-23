@@ -31,7 +31,9 @@ export const Header = ({ cartItems, setCartItems }) => {
       )
     );
   };
-
+  const handleOrderBasket = () => {
+    setCartItems([]);
+  };
   return (
     <>
       <header>
@@ -79,7 +81,9 @@ export const Header = ({ cartItems, setCartItems }) => {
                         <Button variant={"close"} onClick={handleBasketClick}>
                           Close
                         </Button>
-                        <Button variant={"order"}>Order</Button>
+                        <Button variant={"order"} onClick={handleOrderBasket}>
+                          Order
+                        </Button>
                       </div>
                     </div>
                   </div>
