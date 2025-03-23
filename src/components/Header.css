@@ -1,0 +1,103 @@
+header {
+  width: 100%;
+  height: 101px;
+  background-color: rgb(138, 43, 6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 120px;
+}
+.h1-header {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 57px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.basketBlock {
+  width: 249px;
+  height: 59px;
+  border-radius: 30px;
+  background-color: rgb(90, 31, 8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.basket-p {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.basket {
+  width: 17px;
+  height: 17px;
+}
+.heading-pTag {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.span-counter {
+  width: 51px;
+  height: 35px;
+  background-color: rgb(138, 43, 6);
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.modal-container {
+  width: 550px;
+  height: fit-content;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 16px;
+  padding: 30px 20px;
+}
+.div-cost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.modal-container2 {
+  width: 540px;
+  height: 300px;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerofCost {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.div-cost2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 24px;
+}
+.div-orderingClosing {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  margin-right: -10px;
+}
